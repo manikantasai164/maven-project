@@ -28,9 +28,6 @@ stages{
             sh 'mvn clean package -DskipTests=true'
            
         }
-
-        
-
     }
 
     stage('test')
